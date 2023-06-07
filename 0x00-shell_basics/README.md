@@ -51,4 +51,4 @@ Only digits and letters are used to sort; Digits should come first
 You can assume that all the files we will test with will have at least one letter or one digit
 The listing should end with a new line.
 
-[holberton.mgc](./holberton.mgc) - Create a magic file holberton.mgc that can be used with the command file to detect Holberton data files. Holberton data files always contain the string HOLBERTON at offset 0.
+[school.mgc](./school.mgc) - Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
