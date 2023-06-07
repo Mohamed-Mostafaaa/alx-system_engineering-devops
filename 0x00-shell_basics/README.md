@@ -39,4 +39,6 @@ Long format with user and group IDs displayed numerically And hidden files (star
 
 17-tree:Create the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory.
 
-18-commas: List all the files and directories of the current directory, separated by commas (,) and the directory names should end with a slash (/). holberton.mgc: Detect Holberton data files. Holberton data files always contain the string HOLBERTON at offset 0.
+18-commas: List all the files and directories of the current directory, separated by commas (,) and the directory names should end with a slash (/).
+
+19-school.mgc: Detect School data files. School data files always contain the string SCHOOL at offset 0.
