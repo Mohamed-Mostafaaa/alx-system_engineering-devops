@@ -3,7 +3,7 @@
 
 ## About it
 0-current_working_directory: Prints the absolute path name of the current working directory.
-
+https://github.com/Mohamed-Mostafaaa/alx-system_engineering-devops/blob/main/0x00-shell_basics/0-current_working_directory 
 1-listit: Display the contents list of your current directory.
 
 2-bring_me_home: Changes the working directory to the users home directory.
