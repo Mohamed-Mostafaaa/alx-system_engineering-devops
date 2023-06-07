@@ -1,3 +1,4 @@
 # alx System engineering devops
  
- I'm now a ALX Student, this is my system engineering devops
+ ## Notes
+ 0x00.Shell, basics: It contains some bash scripts with navigation and manipulation files commands.
