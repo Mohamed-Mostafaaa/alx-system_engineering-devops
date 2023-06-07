@@ -1,4 +1,4 @@
-# alx System engineering devops
+# ALX system engineering devops
  
- ## Notes
+ ## about
  0x00.Shell, basics: It contains some bash scripts with navigation and manipulation files commands.
