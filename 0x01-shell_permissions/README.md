@@ -2,7 +2,7 @@
 
 0x01.Shell, Permissions: It contains some bash scripts with permission commands.
 
-## about..
+## about ..
 
 - **[0-iam_betty:](./0-iam_betty)** Change your user ID to betty.
 
