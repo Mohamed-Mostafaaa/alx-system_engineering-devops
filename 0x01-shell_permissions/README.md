@@ -1,5 +1,7 @@
 # shell, Permissions
 
+0x01.Shell, Permissions: It contains some bash scripts with permission commands.
+
 ## about..
 
 - **0-iam_betty:** Change your user ID to betty.
@@ -39,5 +41,4 @@
 
 - **16-if_only:** Change the owner of the file hello to betty only if it is owned by the user guillaume.
 
-- **100-Star_Wars:** Play the StarWars IV episode in the terminal.1-who_am_i: Print the effective userid of the current user.
-
+- **[100-Star_Wars](./100-Star_Wars)**: Play the StarWars IV episode in the terminal.
