@@ -5,4 +5,4 @@
 
  - **[0x01.Shell, Permissions:](./0x01-shell_permissions)** It contains some bash scripts with permission commands. 
 
- - **[0x02.Shell, Redirections:](./0x02-shell_redirections)** It contains some bash scripts with redirections commands.
+ - **[0x02.Shell, I/O Redirections and filters:](./0x02-shell_redirections)** It contains some bash scripts with redirections commands.
