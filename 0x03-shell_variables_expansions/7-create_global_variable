@@ -1,2 +1,2 @@
 #!/bin/bash
-expert BEST=School
+expert School=BEST
