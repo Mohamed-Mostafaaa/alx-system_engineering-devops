@@ -8,3 +8,5 @@
  - **[0x02.Shell, I/O Redirections and filters:](./0x02-shell_redirections)** It contains some bash scripts with redirections commands.
 
  - **[0x03.shell, init files, Variables and expansions:](./0x03-shell_variables_expansions)** It contains some bash scripts about variables and expansions.
+ 
+ - **[0x04.shell, loops conditions and parsing:](./0x04-loops_conditions_and_parsing)** It contains some bash scripts about loops and parsing.
