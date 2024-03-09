@@ -25,7 +25,7 @@ frontend www-http
     redirect scheme https code 301 if !{ ssl_fc }
 
 frontend www-https
-    bind   0.0.0.0:443 ssl crt /etc/haproxy/certs/www.bdbnb.site.pem
+    bind   0.0.0.0:443 ssl crt /etc/haproxy/haproxy.cfg
     reqadd X-Forwarded-Proto:\ https
     acl    letsencrypt-acl path_beg /.well-known/acme-challenge/
     use_backend letsencrypt-backend if letsencrypt-acl
