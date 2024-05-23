@@ -41,7 +41,7 @@ frontend clickviral-frontend
         default_backend clickviral-backend
 
 frontend clickviral-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/clickviral.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.mohamed-tech.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend clickviral-backend
 
