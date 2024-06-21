@@ -33,19 +33,19 @@ defaults
         errorfile 503 /etc/haproxy/errors/503.http
         errorfile 504 /etc/haproxy/errors/504.http
 
-frontend mohamed-tech-frontend
+frontend clickviral-frontend
         bind *:80
         mode http
         http-request redirect scheme https code 301 unless { ssl_fc }
         http-request set-header X_Forwarded-Proto http
         default_backend clickviral-backend
 
-frontend mohamed-tech-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/www.mohamed-tech.tech.pem
+frontend clickviral-frontend-https
+        bind *:443 ssl crt /etc/haproxy/certs/clickviral.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend clickviral-backend
 
-backend mohamed-tech-backend
+backend mohamed-tech-tech-backend
         balance roundrobin
-        server 251552-web-01 54.167.179.16:80 check
-        server 251552-web-02 54.126.16.121:80 check
+        server 251552-web-01 100.25.200.9:80 check
+        server 251552-web-02 52.87.222.153:80 check
