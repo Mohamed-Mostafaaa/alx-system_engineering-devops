@@ -45,7 +45,7 @@ frontend mohamed-tech-frontend-https
         http-request set-header X-Forwarded-Proto https
         default_backend mohamed-tech-backend
 
-backend mohamed-tech-tech-backend
+backend mohamed-tech-backend
         balance roundrobin
         server 251552-web-01 100.25.200.9:80 check
         server 251552-web-02 52.87.222.153:80 check
